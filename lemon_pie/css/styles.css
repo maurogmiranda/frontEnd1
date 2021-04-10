@@ -1,5 +1,19 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+h3{
+    font-style: italic;
+    font-weight: bold;
+}
+h2{
+    font-weight: bolder;
+    font-style: italic;
+}
 .banner{
     background-image: url(../img/lemon-pie2.jpg);
     background-size: cover;
     height: 343px;
+    color:white;
+    text-align: center;
+    margin-top: 10px;
 }
