@@ -1,0 +1,177 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    scroll-padding-top: 50px;
+}
+.fa-heart{
+    color: red;
+    font-size: 36px;
+    position: relative;
+    top: 280px;
+    right: 160px;
+    z-index: 10;
+}
+
+aside{
+    font-size: 24px;
+    color: #000000;
+    background-color: #1cd1b0;
+    padding: 3px 30px;
+}
+
+header{
+    color: white;
+    background: #00669F;
+    margin: 0%;
+    padding: 5px 5px;
+    font-weight: bold;
+    position: sticky;
+}
+h1{
+    position: sticky;
+}
+.card-body{
+    width: 402px;
+    background-color: #F3F3F3;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    margin-top: 70px;
+}
+
+h2{
+    padding-top: 100px;
+}
+
+p{
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+.detalles-card{
+    padding-bottom: 30px;
+}
+article{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.fa-plus{
+    color:white
+}
+.add{
+    position: fixed;
+    right: 300px;
+    bottom: 100px;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #00669F;
+}
+    
+
+footer{    
+    height: 140px;
+    color:white;
+    background: #00669F;
+    text-align: center;
+    margin-bottom: 0%;
+}
+.img-super-1{
+    width: 128px;
+    height: 128px;
+    background-image: url(../img/batman.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: relative;
+    left: 720px;
+    top: 350px;
+    z-index: 10;
+}
+.back-card-1 {
+    background-image: url(../img/bg-batman.jpg);
+    width: 402px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 592px;
+    top: 100px;
+    border-radius: 30px 30px 0px 0px;
+}
+.card-image {
+    width: 402px;
+    height: 200px;
+    background-size: cover;
+    position: relative;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.boton-ver-mas {
+    text-align: center;
+    width: 115px;
+    background-color: #00669F;
+    margin: auto;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.img-super-2{
+    width: 128px;
+    height: 128px;
+    background-image: url(../img/wonderw.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: relative;
+    left: 730px;
+    top: 350px;
+    z-index: 10;
+}
+.back-card-2 {
+    background-image: url(../img/bg-wonderw.jpg);
+    width: 402px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 592px;
+    top: 100px;
+    border-radius: 30px 30px 0px 0px;
+    
+}
+.img-super-3{
+    width: 128px;
+    height: 128px;
+    background-image: url(../img/superman.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: relative;
+    left: 730px;
+    top: 350px;
+    z-index: 10;
+}
+.back-card-3 {
+    background-image: url(../img/bg-superman.jpg);
+    width: 402px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 592px;
+    top: 100px;
+    border-radius: 30px 30px 0px 0px;
+    
+}
+.git{
+    background-image: url(../img/github.png);
+    background-size: cover;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    left: 1000px;
+    top: 70px;
+    color: white;
+}
