@@ -28,7 +28,7 @@ header{
     margin: 0%;
     padding: 5px 5px;
     font-weight: bold;
-    background-attachment: fixed;
+    position: sticky;
 }
 h1{
     position: sticky;
@@ -72,6 +72,7 @@ article{
     padding: 10px;
     border-radius: 50%;
     background-color: #00669F;
+    margin:auto;
 }
     
 
@@ -90,8 +91,9 @@ article{
     background-size: cover;
     background-position: center;
     border-radius: 50%;
+    margin:auto;
     position: relative;
-    left: 730px;
+   
     top: 350px;
     z-index: 10;
 }
@@ -100,9 +102,9 @@ article{
     width: 402px;
     height: 200px;
     background-size: cover;
-    background-position: center;
+    margin:auto;
     position: relative;
-    left: 592px;
+   
     top: 100px;
     border-radius: 30px 30px 0px 0px;
 }
@@ -132,7 +134,7 @@ article{
     background-position: center;
     border-radius: 50%;
     position: relative;
-    left: 730px;
+    margin:auto;
     top: 350px;
     z-index: 10;
 }
@@ -143,7 +145,7 @@ article{
     background-size: cover;
     background-position: center;
     position: relative;
-    left: 592px;
+    margin:auto;
     top: 100px;
     border-radius: 30px 30px 0px 0px;
     
@@ -156,7 +158,7 @@ article{
     background-position: center;
     border-radius: 50%;
     position: relative;
-    left: 730px;
+    margin:auto;
     top: 350px;
     z-index: 10;
 }
@@ -167,7 +169,7 @@ article{
     background-size: cover;
     background-position: center;
     position: relative;
-    left: 592px;
+    margin:auto;
     top: 100px;
     border-radius: 30px 30px 0px 0px;
     
@@ -177,8 +179,9 @@ article{
     background-size: 130px;
     width: 220px;
     height: 60px;
+    margin:auto;
     position: relative;
-    left: 1000px;
+    left: 350px;
     top: 90px;
     color: white;
     background-repeat:no-repeat ;
