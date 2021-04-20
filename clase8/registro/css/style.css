@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+aside{
+    background-color: #1CD1B0;
+    Height: 28px;
+    width: 100%;
+    margin: 0%;
+    padding-top: 5px;
+    font-size: 17px;
+    padding-left: 10px;
+    
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+
+}
+
+
+
+header{
+    background-color:#00669F;
+    height: 80px;
+    color:white;
+    display: inline-block;
+    width: 100%;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.nombre{
+    position: relative;
+    left: 30px;
+    height: 50%;
+    bottom: 20px;
+    font-size: 30px;
+}
+
+h1{
+    position: relative;
+    text-align: center;
+    right: 200px;
+    font-family: 'Inter', sans-serif;
+    margin: 150px ;
+    font-size: 72px;
+    font-weight: bold;
+    
+}
+
+footer{
+    background-color: #00669F;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.formulario{
+    position: relative;
+    left: 455px;
+    bottom: 100px;
+    width: 620px;
+    height: 60px;
+    margin-top: 25px;
+    border: black 2px solid;
+    font-size: 20px;
+    padding-left: 23px;
+    padding-top: 5px;
+    font-family: 'Inter', sans-serif;
+}
+
+.contenido-form{
+    position: relative;
+    left: 455px;
+    bottom: 100px;
+    width: 620px;
+    height: 60px;
+    margin-top: 25px;
+    border: black 2px solid;
+    font-size: 20px;
+    padding-left: 23px;
+    padding-top: 5px;
+    font-family: 'Inter', sans-serif;
+}
+
+.boton-reset{
+    Width:300px;
+    font-size: 20px;
+    position: relative;
+    left: 455px;
+    bottom: 100px;
+    height: 60px;
+    margin-top: 50px;
+    color: white;
+    font-weight: bold;
+    background: #888888;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    border-radius: 23.011px;
+}
+
+.boton-entrar{
+    Width:300px;
+    font-size: 20px;
+    position: relative;
+    left: 775px;
+    bottom: 210px;
+    height: 60px;
+    margin-top: 50px;
+    color: black;
+    font-weight: bold;
+    background: #1CD1B0;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    border-radius: 23.011px;
+}
+
+.hiperviculos{
+    position: relative;
+    bottom: 165px;
+    right: 40px;
+    text-align: center;
+    font-size: 21px;
+
+}
+.color-link{
+    font-family: 'Inter', sans-serif;
+    color: #00669F ;
+    text-decoration: none;
+}
+.sacar-color-link{
+    color: black;
+}
