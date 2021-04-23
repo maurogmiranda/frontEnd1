@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+}
+
+aside{
+    background-color: #1CD1B0;
+    Height: 28px;
+    width: 100%;
+    margin: 0%;
+    padding-top: 5px;
+    font-size: 17px;
+    padding-left: 10px;
+    
+}
+
+body {
+    font-family: "inter", sans-serif;
+    margin: 0px;
+
+}
+
+header{
+    background-color:#00669F;
+    height: 80px;
+    color:white;
+    display: inline-block;
+    width: 100%;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+.nombre{
+    position: relative;
+    left: 30px;
+    height: 50%;
+    bottom: 20px;
+    font-size: 30px;
+}
+
+footer{
+    background-color: #00669F;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+section{
+    position: relative;
+    background-color: #00669F;
+    width: 954px;
+    height: 832px;    
+    border-radius: 49px;
+    margin: 100px auto;
+    color: white;
+}
+
+h1{
+    position: relative;
+    top: 15px;
+    text-align: center;
+    font-size: 40px;
+}
+.sub-titulo{
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+}
+.label-nombre{
+    position: absolute;
+    left: 123px;
+    right: 746px;
+    top: 106px;
+    bottom: 702px;
+    Width:85px;
+    Height:24px;
+    font-size: 20px;
+}
+.input-nombre{
+    position: absolute;
+    left: 123px;
+    right: 488px;
+    top: 145px;
+    bottom: 624px;
+    width: 343px;
+    height: 63px;
+    border-radius: 15.34px;
+    border: none;
+    font-size: 20px;
+
+}
+.seleccionador{
+    position: absolute;
+    left: 489px;
+    right: 381px;
+    top: 106px;
+    bottom: 702px;
+    Width:85px;
+    Height:24px;
+    font-size: 20px;
+}
+.contenido-form{
+    position: absolute;
+    left: 489px;
+    right: 123px;
+    top: 145px;
+    bottom: 624px;
+    width: 343px;
+    height: 63px;
+    border-radius: 15.34px;
+    border: none;
+    font-size: 20px;
+}
+.fecha{
+    position: absolute;
+    left: 123px;
+    right: 774px;
+    top: 238px;
+    bottom: 570px;
+    Width:85px;
+    Height:24px;
+    font-size: 20px;
+}
+.fecha-form{
+    position: absolute;
+    left: 123px;
+    right: 488px;
+    top: 282px;
+    bottom: 487px;
+    width: 343px;
+    height: 63px;
+    border-radius: 15.34px;
+    border: none;
+    font-size: 20px;
+}
+
+.agregar-foto{
+    position: relative;
+    left: 489px;
+    right: 343px;
+    top:  125px;
+    Width: 200px;
+    Height:24px;
+    font-size: 20px;
+
+}
+.form-foto{
+    position: absolute;
+    left: 487px;
+    right: 224px;
+    top: 297px;
+    bottom: 503px;
+    width: 223px;
+    height: 32px;
+    color: black;
+}
+.Descripcion{
+    position: absolute;
+    left: 123px;
+    right: 488px;
+    top: 375px;
+    bottom: 250px;
+    width: 343px;
+    height: 307px;
+    border-radius: 15.34px;
+    border: none;
+    font-size: 20px;
+    font-family: "inter";
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.poderes{
+    position: absolute;
+    left: 492.5px;
+    right: 384.5px;
+    top: 375px;
+    width: 300px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+   
+}
+
+.check-label{
+    font-size: 16px;
+   
+}
+
+.tipo-personaje{
+    position: absolute;
+    left: 492.5px;
+    right: 384.5px;
+    top: 570px;
+    width: 300px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: solid 1px white;
+}
+
+.boton-agregar{
+    position: absolute;
+    left: 244px;
+    right: 244px;
+    top: 727px;
+    width: 466px;
+    height: 87px;
+    border-radius: 15.34px;
+    background-color:#1CD1B0 ;
+    color: black;
+    font-size: 40px;
+    border: none;
+    font-family: "inter", sans-serif;
+
+
+}

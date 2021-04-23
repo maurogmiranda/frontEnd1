@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+    <title>Añadir super</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "css\styles.css" rel = "stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <aside>Descuentos 20%</aside>
+    <header><span><img src="./img/logo 1.png" class="tienda"></span>
+        <span class="nombre">Nombre Tienda</span>
+    </header>
+    <section>
+        <h1>Añadi  tu super!</h1>
+        <p class="sub-titulo">Agrega a tu personaje favorito compleando las opciones</p>
+        <form action="" method="GET">
+            <div>
+                <label class="label-nombre" for="nombre">*Nombre</label>
+                <input class="input-nombre" id="nombre" type="text" name="nombre"  required>
+            </div>
+            <div>
+                <label class="seleccionador" for="especie">*Especie</label>
+                <select name="especie" class="contenido-form" id="especie" aria-placeholder="especie">
+                    <option value="Humano">Humano</option>
+                    <option value="Alien">Alien</option>
+                    <option value="Androide">Androide</option>
+                    <option value="Robot">Robot</option>
+                </select>
+            </div>
+            <div>
+                <label for="Fecha" class="fecha">Fecha</label>
+                <input class="fecha-form" id="Fecha" type="date" name="Fecha"  required>
+            </div>
+            <div>
+                <label for="Descripción"></label>
+                <textarea name="Descripción" id="Descripción" placeholder="Descripción" class="Descripcion"></textarea>
+            </div>
+            <div class="poderes">
+                <p>Poderes</p><br>
+                <input class="check" id="volar" type="checkbox" name="volar"  value="volar">
+                <label for="volar" class="check-label" >Volar</label><br>
+                <input class="check" id="Superinteligencia" type="checkbox" name="Superinteligencia"  value="Superinteligencia">
+                <label for="Superinteligencia" class="check-label">Super inteligencia</label><br>
+                <input class="check" id="RASHO-LAZZZER" type="checkbox" name="RASHO-LAZZZER"  value="RASHO-LAZZZER">
+                <label for="RASHO-LAZZZER" class="check-label">RASHO LAZZZER</label><br>
+                <input class="check" id="Billetera-gorda" type="checkbox" name="Billetera-gorda"  value="Billetera-gorda">
+                <label for="Billetera-gorda" class="check-label">Billeteragorda</label>
+                
+            </div>
+            <div class="tipo-personaje">
+                <p>Tipo de personaje</p><br>
+                <input class="" id="Heroe/Villano" type="radio" name="Heroe/Villano"  value="Heroe/Heroina">
+                <label for="Heroe">Heroe/Heroina</label><br>
+                <input class="" id="Heroe/Villano" type="radio" name="Heroe/Villano"  value="Villano/Villana">
+                <label for="Villano">Villano/Villana</label>
+
+
+            </div>
+
+            <div>
+                <label for="imagen-super" class="agregar-foto">Agregar foto</label>
+                <input type="file" id="imagen-super" name="imagen-super" accept=".jpg" class="form-foto">
+            </div>
+            <div>
+                <input class="boton-agregar" type="submit" name="agregar" id="agregar" value="Añadir">
+            </div>
+        
+        </form>
+
+    </section>
+    <footer>Todos los derechos resevados a front end 1</footer>
+
+
+
+
+
+
+</body>
