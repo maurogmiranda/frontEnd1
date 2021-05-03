@@ -26,11 +26,39 @@ header{
     color: white;
     background: #00669F;
     margin: 0%;
-    padding: 5px 5px;
+    padding: 1px ;
+    padding-left: 5px;
     font-weight: bold;
     position: sticky;
     top: 0px;
     z-index: 15;
+}
+nav{
+    position: relative;
+    bottom: 17px;
+    background-color: #001D2D;
+}
+nav ul a{
+    display: inline-block;
+    text-align: end; 
+    margin-right: 30px;
+    color: white;
+    text-decoration: none;
+}
+nav ul li a::before{
+    position: relative;
+    top: 4px;
+    content: "\261E";
+    font-size: 30px;
+    visibility: hidden;
+}
+nav ul li a:hover::before{
+    visibility: visible;
+}
+ul{
+    list-style:none;
+    display: flex;
+    justify-content: flex-end
 }
 h1{
     position: sticky;
@@ -64,17 +92,21 @@ article{
 .fa-plus{
     color:white;
     position: relative ;
-    top: 2px ;
+    bottom: 1px ;
 }
 .add{
     position: fixed;
     right: 300px;
     bottom: 100px;
+    height: 50px;
     font-size: 30px;
     padding: 10px;
     border-radius: 50%;
     background-color: #00669F;
-    margin:auto;
+    
+}
+.add:hover{
+    background-color: orange;
 }
     
 
@@ -127,6 +159,13 @@ article{
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
+}
+.boton-ver-mas a{
+    color: white;
+    text-decoration: none;
+}
+.boton-ver-mas:hover{
+    background-color: orange;
 }
 .img-super-2{
     width: 128px;
